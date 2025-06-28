@@ -1,0 +1,14 @@
+name: file_summarizer
+description: Summarizes the content of a given file.
+author: AutoMCPToolAgent
+version: 0.1.0
+
+inputs:
+  - name: file_path
+    type: string
+    description: The path to the file to summarize.
+    required: true
+
+runs:
+  using: python
+  main: main.py
